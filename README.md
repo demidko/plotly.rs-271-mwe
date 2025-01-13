@@ -22,7 +22,7 @@ error[E0432]: unresolved import `plotly::GroupNorm`
   |              ^^^^^^^^^ no `GroupNorm` in the root
 ```
 
-Although `enum GroupNorm` is declared as `pub`, its parent module `scatter` is private
+**Although `enum GroupNorm` is declared as `pub`, its parent module `scatter` is private**
 
 ```rust
 use plotly::traces::scatter::GroupNorm;
